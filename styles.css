@@ -1,1 +1,10 @@
-
+body{
+    background-color: rgba(203, 107, 4, 0.261);
+    color:rgb(0, 0, 0);
+}
+p{
+    line-height: 1.5em;
+}
+Img{
+    width:300px;
+}
