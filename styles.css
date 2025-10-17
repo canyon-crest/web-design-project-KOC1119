@@ -21,10 +21,11 @@ h1{
     text-align: center;
     width:60%;
     margin:0 auto;
-    font-family:georgia;
+    font-family:sans-serif;
+
 }
 h2{
-    font-size:1.3em;
+    font-size:1.5em;
     text-align:center;
     font-style: italic;
 }
