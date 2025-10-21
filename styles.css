@@ -111,7 +111,7 @@ highlight{
 li{
     font-style: italic;
 }
-@media(max-width:1200px;){
+@media(max-width:1200px){
     #container{
         background-color:#7b7b7b;
         width: 800px;
@@ -133,7 +133,7 @@ li{
     }
 
 }
-@media(max-width:768px;){
+@media(max-width:768px){
     #sidebar{
         display:none;
     }
