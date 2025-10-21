@@ -13,6 +13,13 @@ body{
     border-top: 5px double #fff;
     border-bottom: 5px double #fff;
 }
+/* Common zoom properties for all headings */
+h1, h2, h3 {
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+    cursor: default; /* Keep default cursor so headings don't look clickable */
+}
+
 h1{
     background-color: #ffff;
     border:5px solid #000000;
@@ -22,13 +29,14 @@ h1{
     width:60%;
     margin:0 auto;
     font-family:sans-serif;
-
 }
+
 h2{
     font-size:1.5em;
     text-align:center;
     font-style: italic;
 }
+
 h3{
     border-left: 20px double #ccc;
     padding-left: 20px;
@@ -36,6 +44,12 @@ h3{
     border-bottom: 2px solid #ccc;
     width: 250px;
     background-color: #ffffff;
+}
+
+/* Zoom effect on hover for all headings */
+h1:hover, h2:hover, h3:hover {
+    transform: scale(1.05); /* Slightly gentler zoom for text */
+    z-index: 1;
 }
 p{
     line-height: 2em;
@@ -52,7 +66,14 @@ Img{
     float: left;
     margin-right: 20px;
     height: 200px;
-    
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+    transform-origin: center center; /* Zoom from center */
+}
+
+/* Zoom effect on hover */
+Img:hover{
+    transform: scale(1.1); /* 10% larger on hover */
+    z-index: 1; /* Ensure zoomed image appears above other content */
 }
 /*pseudo selectors */
 a:link{
@@ -128,7 +149,7 @@ li{
     }
 
     #sidebar, #sidebar h3{
-        width: 30%;
+        display: none;
     }
 
 }
