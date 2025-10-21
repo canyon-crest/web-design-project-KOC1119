@@ -60,7 +60,7 @@ a:link{
     font-weight: bold;
 }
 a:visited{
-    color: rgb(255, 0, 0);
+    color: rgb(1, 144, 160);
 }
 a:hover{
     color:rgb(9, 133, 91);
@@ -113,20 +113,20 @@ li{
 }
 @media(max-width:1200px){
     #container{
-        background-color:#7b7b7b;
+        background-color:#adadad;
         width: 800px;
     }
 }
 @media(max-width:992px){
     #container{
-        background-color: aqua;
+        background-color: rgb(70, 105, 105);
         width:100%;
     }
     body,p,#container{
         margin:0;
         border:none;
         Padding:0;
-        background-color: antiquewhite;
+        background-color: rgb(195, 195, 195);
 }
     p,#p2,h3{
         padding:20px;
@@ -138,13 +138,13 @@ li{
         display:none;
     }
     h1{
-        border: none;
-        background: none;
-        color:darkcyan;
-        width:90%;
+        border: 1px solid #ffffff;
+        background: #000000;
+        color:rgb(255, 255, 255);
+        width:60%;
 
     }
-    img{
-        width:100px;
+    body,p,#container{
+        background-color: #9f9f9f;
     }
 }
